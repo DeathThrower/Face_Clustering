@@ -1,4 +1,5 @@
-# Image_Clustering
+# Face_Clustering
+program to cluster and divide folder/s of persons based on the face using the pretrained deep learning network Keras Facenet to get the face embedding, clusteval to get the best K used in Kmeans and sklearn Kmeans to cluster the persons according to the face embeddings 
 ## Setup
 run the "setup.py" file to install the required packages
 >python -u setup.py
